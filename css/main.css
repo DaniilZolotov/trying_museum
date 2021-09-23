@@ -1,3 +1,6 @@
+/*
+                                  Header
+*/
 body{
     overflow: hidden;
     overflow-x: hidden;
@@ -6,11 +9,13 @@ a {
     text-decoration:none;
 }
 .container{ 
-    width: 1920px;
+    width: 1440px;
     margin: 0 auto;
     background-color:#030303;
 }
-
+header{
+    background-color:#030303;
+}
 .header{
     width: 1440px; 
     height: 150px;   
@@ -62,6 +67,13 @@ a {
 /* identical to box height */
     letter-spacing: 2px;
     color: #FFFFFF;
+}
+
+/*
+                          Welcome to the louvre
+*/
+.welcome{
+    background-color:#030303
 }
 
 .wlcm{
