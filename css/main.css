@@ -1,0 +1,61 @@
+.container{ 
+    width: 1920px;
+    margin: 0 auto;
+}
+
+#container_header{
+    background-color:#030303;
+}
+
+.header{
+    width: 1440px; 
+    height: 150px;   
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo{
+    width: 199px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 62px;
+}
+
+.img{
+    width: 49px;
+    height: 26px;
+}
+
+.lvr_txt{
+    padding-left: 25px;
+    color: #FFFFFF;;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+/* identical to box height */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.menu{
+    width: 775px;
+    height: 26px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 466px;
+    padding-top: 61px;
+}
+
+.menu_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+/* identical to box height */
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
