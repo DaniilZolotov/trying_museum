@@ -188,7 +188,16 @@ color: #FFFFFF;
 
 .grous{
     width: 1000px;
+}
+.frst_group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
+.scnd_group{
+    display: flex;
+    justify-content: space-between;
 }
 
 .group_blk{
@@ -196,7 +205,59 @@ color: #FFFFFF;
     height: 424px;
 }
 
-.grout_pctr{
+.grout_img{
     width: 440px;
     height: 285px;
+}
+
+.groul_ttl{
+    width: 252px;
+    height: 35px;
+}
+
+.group_p_ttl{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.group_line{
+    width: 300px;
+    height: 2px;    
+    background: #710707;
+    border-radius: 0px;
+}
+
+.group_high{
+    width: 165px;
+    height: 26px;
+}
+
+.group_low{
+    width: 240px;
+    height: 21px;
+}
+
+.group_p_high{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 26px;
+color: #000000
+}
+
+.group_p_low{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
 }
