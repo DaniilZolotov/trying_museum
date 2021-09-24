@@ -2,7 +2,6 @@
                                   Header
 */
 body{
-    overflow: hidden;
     overflow-x: hidden;
 }
 a {
@@ -11,11 +10,9 @@ a {
 .container{ 
     width: 1440px;
     margin: 0 auto;
-    background-color:#030303;
+
 }
-header{
-    background-color:#030303;
-}
+
 .header{
     width: 1440px; 
     height: 150px;   
@@ -69,17 +66,20 @@ header{
     color: #FFFFFF;
 }
 
+
+#blk{
+    background-color:#030303
+}
+
 /*
                           Welcome to the louvre
 */
-.welcome{
-    background-color:#030303
-}
 
 .wlcm{
     width: 1440px;
     height: 810px;
     margin: 0 auto;
+    display: flex;
 }
 
 .ttl{
@@ -142,4 +142,61 @@ color: #FFFFFF;
 
 .btn_txt{
     text-align: center;
+    padding-left: 60px;
+}
+
+.mona{
+    width: 1000px;
+    height: 750px;
+    position: relative;
+    padding-bottom: 75px;
+}
+
+#wht{
+    background:#DBDBDB;
+    
+}
+
+/*
+                                 Virtual tour
+*/
+
+.tour{
+    width: 645px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.tour_p{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.tour_line{
+    width: 1440px;
+    height: 3px;
+    background: #710707;
+    border-radius: 0px;
+    margin-bottom: 50px;
+}
+
+.grous{
+    width: 1000px;
+
+}
+
+.group_blk{
+    width: 440px;   
+    height: 424px;
+}
+
+.grout_pctr{
+    width: 440px;
+    height: 285px;
 }
