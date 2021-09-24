@@ -188,6 +188,7 @@ color: #FFFFFF;
 
 .grous{
     width: 1000px;
+    padding-bottom: 75px;
 }
 .frst_group{
     display: flex;
@@ -260,4 +261,15 @@ color: #000000
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+}
+
+
+
+/*
+                        Picture explore
+*/
+
+.pctr_explr{
+    width: 1440px;
+    height: 715px;
 }
