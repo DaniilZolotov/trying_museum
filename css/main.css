@@ -481,7 +481,7 @@ color: #000000
 
 
 /*
-                            Art Gallert
+                            Art Gallery
 */
 
 .Art_Gallery{
@@ -500,4 +500,43 @@ color: #000000
     text-transform: uppercase;
     color: #FFFFFF;
     
+}
+
+.gallery__places {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery__place:first-child {
+    padding-top: 50px;
+}
+
+.gallery__place:nth-child(3) {
+    padding-top: 50px;
+}
+
+.gallery__place:nth-child(5) {
+    margin-top: -155px;
+}
+
+.gallery__place:nth-child(8) {
+    margin-top: -145px;
+}
+
+.gallery__place:nth-child(9) {
+    margin-top: -100px;
+}
+
+.gallery__place:nth-child(11) {
+    margin-top: -25px;
+}
+
+.gallery__place:nth-child(12) {
+    margin-top: -90px;
+}
+
+.drknss{
+    position: absolute;
+    margin-top: 1611px;
 }
