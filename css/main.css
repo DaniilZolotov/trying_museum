@@ -326,3 +326,140 @@ color: #000000
 .frst_hlf{
     position: absolute
 }
+
+
+/*
+                        Vido Jorney
+*/
+
+
+.jrny{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.jrny_top_ttl{
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.jrny_left{
+    width: 605px;
+    height: 90px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;    
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.jrny_rgt{
+    width: 720px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;    
+    color: #000000;
+}
+
+.video{
+    width: 1440px;
+    height: 735px;
+    margin-bottom: 40px;
+}
+
+.video_img{
+    height: 650px;
+}
+
+.play{
+    position: absolute;
+    margin: 215px 610px;
+}
+
+.player{
+    width: 1440px;
+    height: 85px;
+    background: black;
+}
+
+.plyr_btn{
+    position: absolute;
+    margin: 27px 27px 0 37px;
+}
+
+.line{
+    position: absolute;
+    margin: 35px 35px 408px 103px;
+}
+
+.volume{
+    position: absolute;
+    margin: 27px 27px 302px 1082px;
+}
+
+.volume_line{
+    position: absolute;
+    margin: 35px 35px 115px 1170px;
+}
+
+.full{
+    position: absolute ;
+    margin: 25px 25px 0px 1375px;
+}
+
+.videos{
+    width: 1440px;
+    height: 242px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.video_place{
+    width: 452px;
+    height: 254px;
+    margin-right: 42px;
+}
+
+.ytb_icn{
+    position: absolute;
+    margin: 103px 192px;
+}
+
+.lisa_icon{
+    position: absolute;
+    margin: 15px 199px 0px 10px;
+}
+
+.ytb_txt{
+    width: 333px;
+    height: 39px;
+    position: absolute;
+    margin: 16px 199px 0px 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+} 
+
+.ytb_dots{
+    position: absolute;
+    margin: 27px 211px 36px 412px;
+}
+
+.video_slider{
+    margin: 0 auto;
+    width: 200px;
+    height: 12px;
+    display: flex;
+}
+
