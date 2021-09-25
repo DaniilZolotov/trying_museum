@@ -499,7 +499,7 @@ color: #000000
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #FFFFFF;
-    
+    margin-bottom: 75px;
 }
 
 .gallery__places {
@@ -538,5 +538,58 @@ color: #000000
 
 .drknss{
     position: absolute;
-    margin-top: 1611px;
+    margin-top: 1613px;
+}
+
+/*
+                        Buy Tickets
+*/
+
+.buy_tkts{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.buy_ttl{
+    width: 472px;
+    height: 90px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.buy_line{
+    width: 1440px;
+    height: 3px;
+    background: #710707;
+    border-radius: 0px;
+    margin-bottom: 60px;
+}
+
+.buy_block{
+    height: 628px;
+    display: flex;
+}
+
+.buy_art{
+    width: 720px;
+    height: 550px;
+}
+.type_block{
+    margin-left: 60px;
+}
+.type_ttl{
+    width: 156px;
+    height: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
 }
