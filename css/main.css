@@ -699,12 +699,26 @@ color: #000000
     color: #FFFFFF;
     margin: 0 auto;
 }
+/*
+                        Parallax
+*/
 
 .parallax{
     margin: 0 auto;
-    background: url(/assets/parallax.png);
+    background: url(/assets/parallax_full.jpg);
     background-size: cover;
     background-attachment: fixed;
-    width: 1920px;
+    width: 100%;
     height: 400px;
+    
+}
+
+
+/*
+                        Contact
+*/
+
+.contact{
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
