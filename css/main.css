@@ -593,3 +593,27 @@ color: #000000
     line-height: 33px;
     color: #000000;
 }
+
+.buy_li{
+    list-style: circle;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.am_ttl{
+    width: 100px;
+    height: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 404px;
+}
