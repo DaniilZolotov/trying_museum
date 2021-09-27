@@ -715,10 +715,42 @@ color: #000000
 
 
 /*
-                        Contact
+                        Contacts
 */
 
-.contact{
+.contacts{
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 74px;
+}   
+
+.cont_ttl{
+    width: 227px;
+    height: 66px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.c_block{
+    display: flex;
+}
+
+.cont_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;  
+    color: #000000;
+    margin-top: 25px;
+}
+
+.c_right_side{
+    width: 960px;
+    height: 620px;
+    margin-left: 209px;
 }
