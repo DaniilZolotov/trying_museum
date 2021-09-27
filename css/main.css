@@ -705,7 +705,7 @@ color: #000000
 
 .parallax{
     margin: 0 auto;
-    background: url(/assets/parallax_full.jpg);
+    background: url(../assets/parallax_full.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
